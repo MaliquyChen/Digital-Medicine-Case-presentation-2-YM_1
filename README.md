@@ -14,7 +14,7 @@ Three types of models can be trained respectively by **resnet18.m„ÄÅresnet50.m„Ä
 The prediction results of the three models are saved as a csv file, imported into matlab, and the Midium tree is generated using the built-in Classification Learner.
 ## Step4: Generate the validation Data
 Use 3 types of resnet to generate prediction results,
-**remember to import 'BD.csv' in dicompreprocess in this step**
-Use the code
+1. **remember to import 'BD.csv' in dicompreprocess in this step**
+2. Use the code
   yfit = predict(MTree.ClassificationTree,input);
 to get the **Final Answer**
