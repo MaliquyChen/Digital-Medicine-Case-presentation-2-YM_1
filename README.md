@@ -1,10 +1,10 @@
 # Digital-Medicine-Case-presentation-2-YM_1
 ## Step1: Preprocessing
 The **dicompreprocess.m** contant following steps including
-1. Image Sharpening
-2. Gaussian high-pass filter
-3. Iterative graph binarization
-4. Marker Connected Area
+1. Image Sharpening (histeq)
+2. Gaussian high-pass filter (HPF.m)
+3. Iterative graph binarization (Itersplit.m)
+4. Marker Connected Area (masker.m)
 5. Masking
 6. Image resizing
 7. **remember to import 'BD2.csv' in this step**
