@@ -9,4 +9,4 @@ The **dicompreprocess.m** contant following steps including
 6. Image resizing
 ## Step2: Train the CNN model
 Three types of models can be trained respectively by **resnet18.m、resnet50.m、resnet101.m**
----
+## Step3: Random forest
