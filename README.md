@@ -1,4 +1,5 @@
 # Digital-Medicine-Case-presentation-2-YM_1
+Environment: Matlab 2020a
 ## Step1: Preprocessing
 The **dicompreprocess.m** contant following steps including
 1. Image Sharpening (histeq)
