@@ -7,7 +7,6 @@ The **dicompreprocess.m** contant following steps including
 4. Marker Connected Area
 5. Masking
 6. Image resizing
----
 ## Step2: Train the CNN model
 Three types of models can be trained respectively by **resnet18.m、resnet50.m、resnet101.m**
 ---
